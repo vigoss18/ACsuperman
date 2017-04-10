@@ -1,0 +1,15 @@
+﻿生成启动时间为 2017/4/10 18:34:41。
+     1>项目“c:\Users\Vigoss\documents\visual studio 2013\Projects\PaChong_Practice\PaChong_Practice\PaChong_Practice.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>c:\users\vigoss\documents\visual studio 2013\projects\pachong_practice\pachong_practice\源.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\vigoss\documents\visual studio 2013\Projects\PaChong_Practice\Debug\PaChong_Practice.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\vigoss\documents\visual studio 2013\Projects\PaChong_Practice\Debug\PaChong_Practice.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\vigoss\documents\visual studio 2013\Projects\PaChong_Practice\Debug\PaChong_Practice.lib" /MACHINE:X86 Debug\htmlManage.obj
+         "Debug\源.obj"
+         PaChong_Practice.vcxproj -> c:\users\vigoss\documents\visual studio 2013\Projects\PaChong_Practice\Debug\PaChong_Practice.exe
+     1>已完成生成项目“c:\Users\Vigoss\documents\visual studio 2013\Projects\PaChong_Practice\PaChong_Practice\PaChong_Practice.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.79
