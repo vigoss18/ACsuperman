@@ -10,3 +10,7 @@ using namespace std;
 #pragma comment(lib,"ws2_32.lib")
 
 vector<string> urlSelect(string &allhtml);
+
+bool getCode(string &allHtml);
+
+void checkCode();
