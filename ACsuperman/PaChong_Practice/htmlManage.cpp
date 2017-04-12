@@ -5,7 +5,7 @@ extern string codeHtml;
 vector<string> urlSelect(string &allhtml)
 {
 	vector<string> ret;
-	string patten = "www.baidu.com/link\\?url=[^\\\"]+";
+	string patten = "http://blog.csdn.net[^\\\"]+";
 	regex link_regex(patten);
 	for (sregex_iterator it(allhtml.begin(), allhtml.end(), link_regex), end; it != end; it++)
 	{

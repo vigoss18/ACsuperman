@@ -9,8 +9,8 @@ SOCKET sock;
 
 void baidu(string titleId, vector<string> &baiduUrl)
 {
-	strcpy(host, "www.baidu.com");
-	strcpy(path, "/s?wd=");
+	strcpy(host, "cn.bing.com");
+	strcpy(path, "/search?q=");
 	strcat(path, titleId.c_str());
 
 	sendGet(host, path);
@@ -27,13 +27,11 @@ void baidu(string titleId, vector<string> &baiduUrl)
 	closesocket(sock);
 	baiduUrl = urlSelect(allHtml);
 	baiduUrl.erase(unique(baiduUrl.begin(), baiduUrl.end()), baiduUrl.end());
-	/*
 	cout << baiduUrl.size() << endl;
 	for (int i = 0; i < baiduUrl.size(); i++)
 	{
 		cout << baiduUrl[i] << endl;
 	}
-	*/
 }
 
 void search(vector<string> &baiduUrl)
@@ -67,7 +65,7 @@ int main()
 	vector<string>baiduUrl;
 	for (int i = 1000; i < 1001; i++)
 	{
-		string titleId = "hdu" + to_string(i) + "csdn";
+		string titleId = "hdu+" + to_string(i) + "+csdn";
 		baiduUrl.clear();
 		//cout << titleId << endl;
 		baidu(titleId,baiduUrl);
